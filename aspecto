@@ -1,0 +1,210 @@
+body {
+    background-color: #386641;
+    padding: 0%;
+    margin: 0%;
+}
+ 
+ 
+h1 {
+ font-family: "Playwrite RO", cursive;
+ font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    letter-spacing: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #f2e8cf;
+    background-color: #45a049;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+ 
+ 
+h2 {
+    color:#f2e8cf;
+    font-family: "Playwrite RO", cursive;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   padding: 10px;
+}
+ 
+ 
+input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+
+.user-list {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+ 
+ 
+.user-header, .user-row {
+   display: flex;
+   width: 100%;
+   font-family: "Playwrite RO", cursive;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+}
+ 
+ 
+.user-column {
+    padding: 10px;
+    flex: 1;
+    text-align: left;
+}
+ 
+ 
+.user-header {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+ 
+ 
+.user-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ 
+ 
+.user-row:nth-child(odd) {
+    background-color: #ccff33;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+ 
+ 
+button:hover {
+    background-color: #45a049;
+}
+ 
+ 
+button:focus {
+    outline: none;
+}
+ 
+ 
+button {
+    background-color: #a7c957;
+    color: #f2e8cf;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+ 
+ 
+label{
+    color: #f2e8cf;
+}
+ 
+ 
+form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+ 
+label, input {
+    display: block;
+}
+ 
+ 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+ 
+.footer-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.botones-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los elementos */
+    align-items: center;
+}
+ 
+.icon-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+}
+
+
+ 
+.icon-button .material-icons {
+  font-size: 24px;
+}
+
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
